@@ -7,11 +7,7 @@ public class Mayorista{
     this.nombre=nombre;
     
     
-    
-  public void agregarItems(Items items){
-    this.items.add(items);
-     
-   }
+ 
    
   
   
