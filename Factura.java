@@ -5,7 +5,7 @@ Public class Factura extends Mayorista {
     imprime mayorista
     imprime factura
     
-    
+     
     
  }
 }
