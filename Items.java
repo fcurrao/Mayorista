@@ -5,10 +5,9 @@ Public class Items implements BebidasyPerfumes {
   private Integer cantidadUnidades;
   private Double iva;
     
-  public Items(Double precioUnitario, TipoDeItem TipoDeItem, Double iva){
+  public Items(Double precioUnitario, TipoDeItem TipoDeItem){
   this.precioUnitario=precioUnitario;
   this.TipoDeItem=TipoDeItem;
-  this.iva=iva;
   
    public Double calcularsubtotalPrecioDelItem(Items item, Integer cantidadUnidades){
    Double subtotalxArticulo = items.precioUnitario*;
